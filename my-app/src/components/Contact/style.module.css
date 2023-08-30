@@ -1,0 +1,47 @@
+.mainContContact {
+    /* background-color: rgb(178, 173, 184); */
+    /* background-color: rgb(124, 93, 63); */
+    background: linear-gradient(45deg, #cdcecf, #292727);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    /* border: silver solid 2px; */
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: serif;
+    font-size: x-large;
+    margin: 5px;
+    padding: 5px;
+    gap: 2px;
+
+}
+
+.input {
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px;
+}
+
+.button {
+    background-color: rgb(95, 62, 13);
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+.button:hover {
+    background-color: black;
+}

@@ -1,0 +1,15 @@
+.mainCont {
+    background-color: black;
+    color: rgb(212, 212, 212);
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para {
+    padding: 10px;
+}

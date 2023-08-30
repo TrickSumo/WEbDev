@@ -1,0 +1,42 @@
+.mainCont {
+    padding: 40px;
+    background-color: rgb(13, 73, 100);
+    color: white;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutImage {
+
+    width: 40%;
+    height: 40%;
+}
+
+
+
+.serviceTitle {
+    text-align: center;
+    color: bisque;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.serviceSection {
+    font-family: sans-serif;
+    border-radius: 50px;
+    border: rgb(187, 179, 174) solid 4px;
+    padding: 25px;
+
+}
+
+.serviceSection:hover {
+    background-color: #2e8099;
+}
