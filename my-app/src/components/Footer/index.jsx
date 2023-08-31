@@ -9,18 +9,18 @@ import git from '../../images/git-Icon.svg';
 const Footer = () => {
     return (
         <>
-            <div className={styleFooter.mainCont}>
+            <div id='contact' className={styleFooter.mainCont}>
                 <div className={styleFooter.container}>
-                    <a href="https://instagram.com">
+                    <a href="https://instagram.com" target='_blank'>
                         <img className={styleFooter.img} src={insta} alt="Instagram" />
                     </a>
-                    <a href="https://facebook.com">
+                    <a href="https://facebook.com" target='_blank'>
                         <img className={styleFooter.img} src={fb} alt="Facebook" />
                     </a>
-                    <a href="https://twitter.com">
+                    <a href="https://twitter.com" target='_blank'>
                         <img className={styleFooter.img} src={twitter} alt="Twitter" />
                     </a>
-                    <a href="https://github.com">
+                    <a href="https://github.com" target='_blank'>
                         <img className={styleFooter.img} src={git} alt="Github" />
                     </a>
                 </div>

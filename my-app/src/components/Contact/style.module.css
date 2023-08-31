@@ -1,10 +1,11 @@
 .mainContContact {
     /* background-color: rgb(178, 173, 184); */
     /* background-color: rgb(124, 93, 63); */
-    background: linear-gradient(45deg, #cdcecf, #292727);
+    background: linear-gradient(45deg, #666696, #574e4e);
     padding: 5px;
     text-align: center;
     color: white;
+    width: 98vw;
 }
 
 
@@ -29,9 +30,12 @@
 }
 
 .input {
-    border-radius: 10px;
+    border-radius: 2px;
     width: 100%;
     margin: 5px;
+    padding: 8px;
+    border: black solid 1px;
+    background-color: rgb(235, 231, 231);
 }
 
 .button {

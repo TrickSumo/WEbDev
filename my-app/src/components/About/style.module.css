@@ -2,6 +2,7 @@
     padding: 40px;
     background-color: rgb(13, 73, 100);
     color: white;
+    width: 98vw;
 
 }
 
@@ -39,4 +40,23 @@
 
 .serviceSection:hover {
     background-color: #2e8099;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutImage {
+
+        width: 50%;
+        height: 50%;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

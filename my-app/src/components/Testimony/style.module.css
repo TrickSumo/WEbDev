@@ -2,6 +2,7 @@
     /* background-color: rgb(148, 120, 148); */
     background-color: rgb(211, 202, 185);
     padding: 30px;
+    width: 98vw;
 }
 
 .title {
@@ -49,4 +50,13 @@
     background-color: #441a46;
     color: white;
     border: black solid 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .conatiner {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        padding: 15px;
+    }
 }

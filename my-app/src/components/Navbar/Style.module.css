@@ -3,6 +3,7 @@
     justify-content: space-around;
     padding: 5px;
     background-color: rgb(228, 226, 226);
+    width: 98vw;
 }
 
 .Title {
@@ -19,11 +20,30 @@
     flex-direction: row;
     gap: 50px;
 
+
+}
+
+.NavOption {
+    text-decoration: none;
 }
 
 .NavOption:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     color: rgb(44, 133, 66);
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .NavOptions {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        font-size: small;
+
+    }
+
+
 }

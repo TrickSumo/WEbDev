@@ -1,7 +1,9 @@
 .mainCont {
-    background-image: url('../../images/image01.jpg');
+    background-image: url('../../images/image06.jpg');
     padding: 40px;
     background-color: rgb(238, 230, 230);
+    height: 100vh;
+    width: 98vw;
 }
 
 .titleText {
@@ -9,21 +11,21 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-style: oblique;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .titleText02 {
     font-size: xx-large;
     font-family: serif;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .para {
     text-align: left;
-    text-shadow: 40px;
+    /* text-shadow: 40px; */
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 80px;
+    /* line-height: 80px; */
 }
 
 .button {
@@ -34,5 +36,13 @@
     border-radius: 8px;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: larger;
+    }
+
 
 }

@@ -14,7 +14,7 @@ const Body = () => {
                     engage, and deliver results. With a perfect blend of creativity and technical expertise,
                     we create online experiences that leave a lasting impression.
                 </p>
-                <button className={styleBody.button}>More Information</button>
+                <a href='#about' ><button className={styleBody.button}>More Information</button></a>
             </div>
         </>
     )

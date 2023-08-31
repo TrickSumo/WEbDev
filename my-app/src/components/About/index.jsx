@@ -4,7 +4,7 @@ import aboutImage from '../../images/image02.png'
 const About = () => {
     return (
         <>
-            <div className={styleAbout.mainCont}>
+            <div id="about" className={styleAbout.mainCont}>
 
                 <div className={styleAbout.wrapper}>
                     <h1>
